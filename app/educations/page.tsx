@@ -1,7 +1,7 @@
   "use client";
 
 import { motion } from "framer-motion";
-import { Calendar } from "lucide-react";
+import { Calendar, GraduationCap } from "lucide-react";
 
 const educationData = [
   {
@@ -25,6 +25,13 @@ export default function Education() {
       transition={{ duration: 0.7, ease: "easeOut" }}
       className="max-w-4xl mx-auto py-16 px-4"
     >
+
+       <div className="relative inline-block p-[2px] rounded-full bg-gradient-to-tr from-white/10 via-white/30 to-white/10 animate-border-shimmer mb-6">
+      <div className="flex items-center gap-2 rounded-full bg-black text-white px-6">
+        <GraduationCap size={16} className="text-[#EB7C46]" />
+        <span className="font-medium">  Education</span>
+      </div>
+    </div>
       <h2 className="text-3xl font-bold mb-2 text-gray-900 dark:text-white">Education</h2>
       <p className="mb-10 text-gray-700 dark:text-gray-300">A timeline of my academic background and key achievements</p>
       <div className="relative border-l-2 border-gray-200 dark:border-neutral-700 ml-4">
