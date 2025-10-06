@@ -10,7 +10,7 @@ const educationData = [
     years: "2022 - Present",
     description:
       "Currently pursuing BCA with a strong foundation in web development, data structures, and programming. Actively working on personal and academic projects, and continuously exploring new technologies.",
-    skills: ["JavaScript", "React.js","Next.js", "Node.js", "Data Structures", "MongoDB", "Tailwind CSS"],
+    skills: ["JavaScript", "React.js","Next.js", "Node.js",  "MongoDB", ],
   },
   
   
